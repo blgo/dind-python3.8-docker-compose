@@ -5,4 +5,4 @@ RUN apk add --no-cache gcc py3-pip python3-dev musl-dev libffi-dev make cargo li
 
 RUN apk del gcc python3-dev musl-dev libffi-dev cargo libressl-dev musl-dev
 
-RUN apk add --no-cache python3 bash
+RUN apk add --no-cache python3 bash git
